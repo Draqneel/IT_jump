@@ -27,15 +27,6 @@ keyboard = {
 keyboard = json.dumps(keyboard, ensure_ascii=False).encode('utf-8')
 keyboard = str(keyboard.decode('utf-8'))
 
-def get_data(word):
-    if (word == "Father"):
-        data = {}
-        #
-        #
-        #
-        return data
-    return None
-
 def data_processing_father(data):
     pass
 
